@@ -1,9 +1,11 @@
 {
 	"nodes":[
-		{"id":"4fbfedb822baf77d","x":-361,"y":-315,"width":250,"height":60,"type":"text","text":"Питание AC → DC"},
-		{"id":"41f51b3ebfe8f5f1","x":-361,"y":-220,"width":250,"height":60,"type":"text","text":"Аккумуляторный блок"}
+		{"id":"f174c8e1c2da654d","x":-361,"y":-120,"width":250,"height":60,"type":"text","text":"DC‑DC стабилизация"},
+		{"id":"41f51b3ebfe8f5f1","x":-361,"y":-220,"width":250,"height":60,"type":"text","text":"Аккумуляторный блок"},
+		{"id":"4fbfedb822baf77d","x":-361,"y":-320,"width":250,"height":60,"type":"text","text":"Питание AC → DC"}
 	],
 	"edges":[
-		{"id":"c8d93388855facb2","fromNode":"4fbfedb822baf77d","fromSide":"bottom","toNode":"41f51b3ebfe8f5f1","toSide":"top"}
+		{"id":"c8d93388855facb2","fromNode":"4fbfedb822baf77d","fromSide":"bottom","toNode":"41f51b3ebfe8f5f1","toSide":"top"},
+		{"id":"aa11558e8b0a9a16","fromNode":"41f51b3ebfe8f5f1","fromSide":"bottom","toNode":"f174c8e1c2da654d","toSide":"top"}
 	]
 }
