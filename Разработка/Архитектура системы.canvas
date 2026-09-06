@@ -7,7 +7,7 @@
 		{"id":"3fbac02eee1356d6","type":"text","text":"# Защита и коммутация\n\n## Функции\n- Отключение нагрузки\n- Защита от КЗ\n- Защита от перегрева\n- MOSFET/реле\n\n## Зависимости\n← DC-DC-Module\n→ Telemetry-Module\n","x":180,"y":-1040,"width":250,"height":600},
 		{"id":"0126a5d35c51656e","type":"text","text":"# Мониторинг и телеметрия\n\n## Датчики\n- Напряжение\n- Ток\n- Температура\n\n## Вывод\n- OLED / LCD\n- Логирование\n\n## Зависимости\n← Protection-Module\n","x":480,"y":-1040,"width":250,"height":600},
 		{"id":"825d18290f6f8f60","type":"text","text":"# Корпус и механика\n\n## Материалы\n- Пластик\n- Металл\n\n## Размещение модулей\n- AC/DC\n- Battery\n- DC/DC\n- Protection\n- Telemetry\n\n## Охлаждение\n- Вентиляция\n- Радиаторы\n","x":780,"y":-1040,"width":250,"height":600},
-		{"id":"0b1edc220743281f","type":"text","text":"Документация","x":1080,"y":-1040,"width":250,"height":600},
+		{"id":"0b1edc220743281f","type":"text","text":"# Документация\n\n## Схемы\n- Электрические\n- Логические\n- Механические\n\n## Диаграммы\n- Mermaid\n- Excalidraw\n- Canvas\n\n## GitHub\nСсылка на репозиторий.\n","x":1080,"y":-1040,"width":250,"height":600},
 		{"id":"4f9f7c10b44f4cc7","type":"text","text":"Тестирование","x":1400,"y":-1040,"width":250,"height":600}
 	],
 	"edges":[
