@@ -1,6 +1,9 @@
 {
 	"nodes":[
-		{"id":"4fbfedb822baf77d","x":-361,"y":-315,"width":250,"height":60,"type":"text","text":"Питание AC → DC"}
+		{"id":"4fbfedb822baf77d","x":-361,"y":-315,"width":250,"height":60,"type":"text","text":"Питание AC → DC"},
+		{"id":"41f51b3ebfe8f5f1","x":-361,"y":-220,"width":250,"height":60,"type":"text","text":"Аккумуляторный блок"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"c8d93388855facb2","fromNode":"4fbfedb822baf77d","fromSide":"bottom","toNode":"41f51b3ebfe8f5f1","toSide":"top"}
+	]
 }
