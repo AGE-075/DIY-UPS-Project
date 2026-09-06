@@ -8,16 +8,16 @@
 		{"id":"f174c8e1c2da654d","type":"text","text":"# DC-DC стабилизация\n\n## Вход\n24–28 В\n\n## Выход\n12 В / 5 В / 3.3 В\n\n## Компоненты\n- Step-down\n- Step-up (если нужно)\n- Фильтры\n\n## Зависимости\n← Battery-Module\n→ Protection-Module\n","x":-111,"y":-1040,"width":250,"height":600},
 		{"id":"3fbac02eee1356d6","type":"text","text":"# Защита и коммутация\n\n## Функции\n- Отключение нагрузки\n- Защита от КЗ\n- Защита от перегрева\n- MOSFET/реле\n\n## Зависимости\n← DC-DC-Module\n→ Telemetry-Module\n","x":180,"y":-1040,"width":250,"height":600},
 		{"id":"0126a5d35c51656e","type":"text","text":"# Мониторинг и телеметрия\n\n## Датчики\n- Напряжение\n- Ток\n- Температура\n\n## Вывод\n- OLED / LCD\n- Логирование\n\n## Зависимости\n← Protection-Module\n","x":480,"y":-1040,"width":250,"height":600},
-		{"id":"825d18290f6f8f60","type":"text","text":"Корпус и механика","x":780,"y":-1040,"width":250,"height":60}
+		{"id":"825d18290f6f8f60","type":"text","text":"# Корпус и механика\n\n## Материалы\n- Пластик\n- Металл\n\n## Размещение модулей\n- AC/DC\n- Battery\n- DC/DC\n- Protection\n- Telemetry\n\n## Охлаждение\n- Вентиляция\n- Радиаторы\n","x":780,"y":-1040,"width":250,"height":600}
 	],
 	"edges":[
-		{"id":"fe5cb40b754b8831","fromNode":"0126a5d35c51656e","fromSide":"bottom","toNode":"825d18290f6f8f60","toSide":"top"},
 		{"id":"be3b3a6544a3ee04","fromNode":"825d18290f6f8f60","fromSide":"bottom","toNode":"0b1edc220743281f","toSide":"top"},
 		{"id":"469c1b93c3118204","fromNode":"0b1edc220743281f","fromSide":"bottom","toNode":"4f9f7c10b44f4cc7","toSide":"top"},
 		{"id":"ca3d66c884ea61d1","fromNode":"45dac62268d834de","fromSide":"right","toNode":"4fbfedb822baf77d","toSide":"left"},
 		{"id":"7261fa32177b3351","fromNode":"4fbfedb822baf77d","fromSide":"right","toNode":"41f51b3ebfe8f5f1","toSide":"left"},
 		{"id":"bc84192f75c7868a","fromNode":"41f51b3ebfe8f5f1","fromSide":"right","toNode":"f174c8e1c2da654d","toSide":"left"},
 		{"id":"1989d9a042a0717d","fromNode":"f174c8e1c2da654d","fromSide":"right","toNode":"3fbac02eee1356d6","toSide":"left"},
-		{"id":"ba8d73da908de6e0","fromNode":"3fbac02eee1356d6","fromSide":"right","toNode":"0126a5d35c51656e","toSide":"left"}
+		{"id":"ba8d73da908de6e0","fromNode":"3fbac02eee1356d6","fromSide":"right","toNode":"0126a5d35c51656e","toSide":"left"},
+		{"id":"b049e8c7727375f3","fromNode":"0126a5d35c51656e","fromSide":"right","toNode":"825d18290f6f8f60","toSide":"left"}
 	]
 }
