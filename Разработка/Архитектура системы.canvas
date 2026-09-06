@@ -5,13 +5,15 @@
 		{"id":"4fbfedb822baf77d","x":-361,"y":-320,"width":250,"height":60,"type":"text","text":"Питание AC → DC"},
 		{"id":"3fbac02eee1356d6","x":-361,"y":-20,"width":250,"height":60,"type":"text","text":"Защита и коммутация"},
 		{"id":"0126a5d35c51656e","x":-361,"y":80,"width":250,"height":60,"type":"text","text":"Мониторинг и телеметрия"},
-		{"id":"825d18290f6f8f60","x":-361,"y":180,"width":250,"height":60,"type":"text","text":"Корпус и механика"}
+		{"id":"825d18290f6f8f60","x":-361,"y":180,"width":250,"height":60,"type":"text","text":"Корпус и механика"},
+		{"id":"0b1edc220743281f","x":-361,"y":280,"width":250,"height":60,"type":"text","text":"Документация"}
 	],
 	"edges":[
 		{"id":"c8d93388855facb2","fromNode":"4fbfedb822baf77d","fromSide":"bottom","toNode":"41f51b3ebfe8f5f1","toSide":"top"},
 		{"id":"aa11558e8b0a9a16","fromNode":"41f51b3ebfe8f5f1","fromSide":"bottom","toNode":"f174c8e1c2da654d","toSide":"top"},
 		{"id":"b5a58fcd2043a367","fromNode":"f174c8e1c2da654d","fromSide":"bottom","toNode":"3fbac02eee1356d6","toSide":"top"},
 		{"id":"fae1d2786e75fe00","fromNode":"3fbac02eee1356d6","fromSide":"bottom","toNode":"0126a5d35c51656e","toSide":"top"},
-		{"id":"fe5cb40b754b8831","fromNode":"0126a5d35c51656e","fromSide":"bottom","toNode":"825d18290f6f8f60","toSide":"top"}
+		{"id":"fe5cb40b754b8831","fromNode":"0126a5d35c51656e","fromSide":"bottom","toNode":"825d18290f6f8f60","toSide":"top"},
+		{"id":"be3b3a6544a3ee04","fromNode":"825d18290f6f8f60","fromSide":"bottom","toNode":"0b1edc220743281f","toSide":"top"}
 	]
 }
