@@ -8,7 +8,7 @@
 		{"id":"825d18290f6f8f60","type":"text","text":"Корпус и механика","x":-361,"y":180,"width":250,"height":60},
 		{"id":"0b1edc220743281f","type":"text","text":"Документация","x":-361,"y":280,"width":250,"height":60},
 		{"id":"4f9f7c10b44f4cc7","type":"text","text":"Тестирование","x":-361,"y":380,"width":250,"height":60},
-		{"id":"45dac62268d834de","type":"text","text":"Система в целом\n# Общий обзор системы UPS\n\n## Назначение\nКраткое описание цели системы.\n\n## Основные модули\n- AC → DC\n- Аккумуляторный блок\n- DC‑DC стабилизация\n- Защита\n- Телеметрия\n- Корпус\n\n## Потоки энергии\nAC → AC/DC → Battery → DC/DC → Load\n\n## Потоки данных\nTelemetry → MCU → Display/Log\n","x":-361,"y":-840,"width":341,"height":510}
+		{"id":"45dac62268d834de","type":"text","text":"# Общий обзор системы UPS\n\n## Назначение\nКраткое описание цели системы.\n\n## Основные модули\n- AC → DC\n- Аккумуляторный блок\n- DC‑DC стабилизация\n- Защита\n- Телеметрия\n- Корпус\n\n## Потоки энергии\nAC → AC/DC → Battery → DC/DC → Load\n\n## Потоки данных\nTelemetry → MCU → Display/Log\n","x":-406,"y":-1020,"width":341,"height":650}
 	],
 	"edges":[
 		{"id":"c8d93388855facb2","fromNode":"4fbfedb822baf77d","fromSide":"bottom","toNode":"41f51b3ebfe8f5f1","toSide":"top"},
