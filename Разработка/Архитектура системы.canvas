@@ -8,7 +8,7 @@
 		{"id":"0126a5d35c51656e","type":"text","text":"# Мониторинг и телеметрия\n\n## Датчики\n- Напряжение\n- Ток\n- Температура\n\n## Вывод\n- OLED / LCD\n- Логирование\n\n## Зависимости\n← Protection-Module\n","x":480,"y":-1040,"width":250,"height":600},
 		{"id":"825d18290f6f8f60","type":"text","text":"# Корпус и механика\n\n## Материалы\n- Пластик\n- Металл\n\n## Размещение модулей\n- AC/DC\n- Battery\n- DC/DC\n- Protection\n- Telemetry\n\n## Охлаждение\n- Вентиляция\n- Радиаторы\n","x":780,"y":-1040,"width":250,"height":600},
 		{"id":"0b1edc220743281f","type":"text","text":"# Документация\n\n## Схемы\n- Электрические\n- Логические\n- Механические\n\n## Диаграммы\n- Mermaid\n- Excalidraw\n- Canvas\n\n## GitHub\nСсылка на репозиторий.\n","x":1080,"y":-1040,"width":250,"height":600},
-		{"id":"4f9f7c10b44f4cc7","type":"text","text":"Тестирование","x":1400,"y":-1040,"width":250,"height":600}
+		{"id":"4f9f7c10b44f4cc7","type":"text","text":"# План тестирования\n\n## Этапы\n1. Проверка AC/DC\n2. Проверка батарей\n3. Проверка DC/DC\n4. Проверка защиты\n5. Проверка телеметрии\n\n## Нагрузочные тесты\n- 10%\n- 50%\n- 100%\n\n## Логирование\nЗапись результатов.\n","x":1400,"y":-1040,"width":250,"height":600}
 	],
 	"edges":[
 		{"id":"ca3d66c884ea61d1","fromNode":"45dac62268d834de","fromSide":"right","toNode":"4fbfedb822baf77d","toSide":"left"},
@@ -16,6 +16,8 @@
 		{"id":"bc84192f75c7868a","fromNode":"41f51b3ebfe8f5f1","fromSide":"right","toNode":"f174c8e1c2da654d","toSide":"left"},
 		{"id":"1989d9a042a0717d","fromNode":"f174c8e1c2da654d","fromSide":"right","toNode":"3fbac02eee1356d6","toSide":"left"},
 		{"id":"ba8d73da908de6e0","fromNode":"3fbac02eee1356d6","fromSide":"right","toNode":"0126a5d35c51656e","toSide":"left"},
-		{"id":"b049e8c7727375f3","fromNode":"0126a5d35c51656e","fromSide":"right","toNode":"825d18290f6f8f60","toSide":"left"}
+		{"id":"b049e8c7727375f3","fromNode":"0126a5d35c51656e","fromSide":"right","toNode":"825d18290f6f8f60","toSide":"left"},
+		{"id":"a70a04cf248da306","fromNode":"825d18290f6f8f60","fromSide":"right","toNode":"0b1edc220743281f","toSide":"left"},
+		{"id":"297a469638e387fa","fromNode":"0b1edc220743281f","fromSide":"right","toNode":"4f9f7c10b44f4cc7","toSide":"left"}
 	]
 }
