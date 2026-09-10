@@ -11,14 +11,17 @@
             "id": "0d8396340e1f629a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Разработка/Архитектура системы.canvas",
+                "viewState": {
+                  "x": -844.0400614205821,
+                  "y": -665.540210537921,
+                  "zoom": -0.2386534257814461
+                }
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-layout-dashboard",
+              "title": "Архитектура системы"
             }
           },
           {
@@ -184,11 +187,13 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "git-vault-sync:Git Vault Sync: синхронизировать хранилище": false
     }
   },
   "active": "0d8396340e1f629a",
   "lastOpenFiles": [
+    "README.md",
     "Разработка",
     "Термины/LTC3780_CH.md",
     "Блоки проекта",
@@ -197,7 +202,6 @@
     "Электронные модули/LTC3780.md",
     "Электронные модули",
     "Электронные модули/SW3538.md",
-    "README.md",
     "Разработка/Блок-схемы.md",
     "Разработка/Concepting.md",
     "Силовая схема UPS.md",
