@@ -134,7 +134,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Блок-схемы.md",
+            "file": "SW3538.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,7 +203,6 @@
     "Электронные модули",
     "Электронные модули/SW3538.md",
     "Разработка/Блок-схемы.md",
-    "Разработка/Concepting.md",
     "Силовая схема UPS.md",
     "Архитектура всей системы.md",
     "Блоки проекта/Блок контроля и мониторинга.md",
