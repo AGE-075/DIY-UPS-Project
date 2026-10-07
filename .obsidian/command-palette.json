@@ -1,0 +1,6 @@
+{
+  "pinned": [
+    "git-vault-sync:test-connection",
+    "git-vault-sync:review"
+  ]
+}
